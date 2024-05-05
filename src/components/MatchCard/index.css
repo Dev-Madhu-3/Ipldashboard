@@ -1,0 +1,65 @@
+.match-cardcontainer {
+  width: 230px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e293b;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+  margin-top: 30px;
+  list-style: none;
+}
+.match-card-image {
+  width: 110px;
+  height: 100px;
+}
+.heading {
+  font-size: 22px;
+  color: white;
+  text-align: center;
+}
+.text {
+  font-size: 14px;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+}
+.win {
+  font-size: 20px;
+  color: #18ed66;
+  font-weight: 600;
+  margin: 0;
+}
+.lose {
+  font-size: 20px;
+  color: #e31a1a;
+  font-weight: 600;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .match-cardcontainer {
+    width: 190px;
+    height: 200px;
+  }
+  .heading {
+    font-size: 15px;
+  }
+  .text {
+    font-size: 10px;
+  }
+  .match-card-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .win {
+    font-size: 15px;
+  }
+  .lose {
+    font-size: 15px;
+  }
+}

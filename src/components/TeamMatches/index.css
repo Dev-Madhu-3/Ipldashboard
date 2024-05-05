@@ -1,0 +1,72 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.banner-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  font-family: Bree Serif;
+}
+
+@media (min-width: 768px) {
+  .banner-con {
+    width: 768px;
+  }
+}
+
+.KXP {
+  background-image: linear-gradient(#d91c1f, #1e293b);
+}
+.RCB {
+  background-image: linear-gradient(#4f5db0, #1e293b);
+}
+.KKR {
+  background-image: linear-gradient(#13418b, #1e293b);
+}
+.MI {
+  background-image: linear-gradient(#f26d22, #da237b);
+}
+.CSK {
+  background-image: linear-gradient(#f7db00, #4f5db0);
+}
+.RR {
+  background-image: linear-gradient(#da237b, #4f5db0);
+}
+.SH {
+  background-image: linear-gradient(#f26d22, #f7db00);
+}
+
+.DC {
+  background-image: linear-gradient(#13418b, #4f5db0);
+}
+
+
+.Banner {
+  width: 100%;
+}
+.latest-match-text {
+  color: white;
+  align-self: flex-start;
+  font-size: 15px;
+  font-weight: 700;
+}
+.recent-matches-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.cards-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
